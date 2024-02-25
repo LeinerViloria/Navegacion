@@ -9,11 +9,9 @@
             Padding="30,0"
             Spacing="25">
             <components:ViewDescription Image="dotnet_bot.png" Title="Roberto gomez" SubTitle="Loquesea" Description="Loquesea2">
-                <components:ViewDescription.AdditionalView>
-                    <ContentView Background="Blue">
-                        <Label Text="Hola, ya funciono" />
-                    </ContentView>
-                </components:ViewDescription.AdditionalView>
+                <StackLayout>
+                    <Label Text="Hola, ya funciono" />
+                </StackLayout>
             </components:ViewDescription>
         </VerticalStackLayout>
     </ScrollView>

@@ -2,33 +2,34 @@
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Components.ViewDescription">
-    <ScrollView>
-        <VerticalStackLayout>
-            <Grid Margin="20,35,20,20">
-                
-                <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                </Grid.RowDefinitions>
-                
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                </Grid.ColumnDefinitions>
+    <ContentView.ControlTemplate>
+        <ControlTemplate>
+            <VerticalStackLayout>
+                <Grid Margin="20,35,20,20">
 
-                <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="{Binding Image}" />
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Title}" />
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding SubTitle}" />
+                    <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="{Binding Image}" />
 
-                <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Description}" />
+                    <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Title}" />
 
-                <ContentPresenter Content="{Binding AdditionalView}" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
+                    <Label Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" Text="{Binding SubTitle}" />
 
-            </Grid>
-        </VerticalStackLayout>
-    </ScrollView>
+                    <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Description}" />
+
+                    <ContentPresenter Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" />
+                </Grid>
+            </VerticalStackLayout>
+        </ControlTemplate>
+    </ContentView.ControlTemplate>
 </ContentView>

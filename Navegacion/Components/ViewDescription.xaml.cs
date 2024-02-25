@@ -2,19 +2,10 @@ namespace Navegacion.Components;
 
 public partial class ViewDescription : ContentView
 {
-    /*
-     * <summary>
-     *  Variable que permite que la propiedad "AdditionalView" se pueda usar con Binding en el xaml
-     *  BindableProperty.Create(nombreDeLaVariable, tipo de la variable, nombre de la clase actual)
-     * </summary>
-     */
-    public static readonly BindableProperty AdditionalViewProperty =
-            BindableProperty.Create(nameof(AdditionalView), typeof(View), typeof(ViewDescription));
-
-    public View AdditionalView
+    public ViewDescription()
     {
-        get { return (View)GetValue(AdditionalViewProperty); }
-        set { SetValue(AdditionalViewProperty, value); }
+        InitializeComponent();
+        BindingContext = this;
     }
 
     /*
@@ -75,10 +66,4 @@ public partial class ViewDescription : ContentView
         get { return (string)GetValue(DescriptionProperty); }
         set { SetValue(DescriptionProperty, value); }
     }
-
-    public ViewDescription()
-	{
-		InitializeComponent();
-        BindingContext = this;
-	}
 }
