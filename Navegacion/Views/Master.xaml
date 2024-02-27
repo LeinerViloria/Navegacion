@@ -3,7 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Master"
              Title="Master">
-    <VerticalStackLayout>
-        <Button Text="Chespirito" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout Padding="8">
+            <Button Text="Chespirito" Clicked="GoToPage1" />
+            <Button Text="Personaje 2" />
+            <Button Text="Cosa 3" />
+            <Button Text="Cosa 4" />
+            <Button Text="Cosa 5" />
+            <Button Text="Cosa 6" />
+            <Button Text="Cosa 7" />
+            <Button Text="Cosa 8" />
+            <Button Text="Cosa 9" />
+            <Button Text="Cosa 10" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

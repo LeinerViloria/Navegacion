@@ -66,6 +66,9 @@
 	  <MauiXaml Update="Components\ViewDescription.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Content\Chespirito.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Detail.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
