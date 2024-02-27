@@ -5,7 +5,7 @@
              x:Class="Navegacion.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+        <!--<VerticalStackLayout
             Padding="30,0"
             Spacing="25">
             <components:ViewDescription Image="dotnet_bot.png" Title="Roberto gomez" SubTitle="Loquesea" Description="Loquesea2">
@@ -13,7 +13,7 @@
                     <Label Text="Hola, ya funciono" />
                 </StackLayout>
             </components:ViewDescription>
-        </VerticalStackLayout>
+        </VerticalStackLayout>-->
     </ScrollView>
 
 </ContentPage>

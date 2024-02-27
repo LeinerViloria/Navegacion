@@ -1,3 +1,5 @@
+using Navegacion.Views;
+
 namespace Navegacion.Layout;
 
 public partial class Home : FlyoutPage
@@ -6,7 +8,9 @@ public partial class Home : FlyoutPage
 	{
 		InitializeComponent();
 
-		//Flyout
-		//Detail
+		Flyout = new Master();
+		Detail = new NavigationPage(new Detail());
+
+		App.flyoutPage = this;
 	}
 }
