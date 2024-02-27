@@ -7,7 +7,7 @@
     <VerticalStackLayout>
         <components:ViewDescription 
             Image="dotnet_bot.png" 
-            Title="Titulo" 
+            Title="Quico" 
             SubTitle="Subtitulo" 
             Description="Descripcion">
             <StackLayout Margin="2">

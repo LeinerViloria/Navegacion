@@ -6,7 +6,7 @@
     <ScrollView>
         <VerticalStackLayout Padding="8">
             <Button Text="Chespirito" Margin="4" Clicked="GoToPage1" />
-            <Button Text="Personaje 2" Margin="4" Clicked="GoToPage2" />
+            <Button Text=" Quico" Margin="4" Clicked="GoToPage2" />
             <Button Text="Cosa 3" Margin="4" Clicked="GoToPage3" />
             <Button Text="Cosa 4" Margin="4" Clicked="GoToPage4" />
             <Button Text="Cosa 5" Margin="4" Clicked="GoToPage5" />
