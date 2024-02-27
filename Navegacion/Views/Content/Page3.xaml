@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page3"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 3">
+             Title="Don Ramón">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="don_ramon.jpg" 
+            Title="Ramón Valdés" 
+            SubTitle="Don Ramón" 
+            Description="Conocido por su interpretación del padre soltero y pobre, añadiendo comicidad a la vecindad.">
             <StackLayout Margin="2">
 
             </StackLayout>

@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page4"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 4">
+             Title="Doña Florinda La Bruja del 71">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="Labruja.jpg" 
+            Title="Florinda Meza" 
+            SubTitle="Doña Florinda La Bruja del 71" 
+            Description="Aportó humor interpretando a la madre sobreprotectora de Quico, involucrándose en situaciones cómicas con los demás vecinos">
             <StackLayout Margin="2">
 
             </StackLayout>

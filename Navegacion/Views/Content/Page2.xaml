@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page2"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 2">
+             Title="Quico">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Quico" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="quico.jpg" 
+            Title="Carlos Villagrán" 
+            SubTitle="Quico" 
+            Description="Interpretó a Quico, el niño mimado, aportando humor y carisma al elenco.">
             <StackLayout Margin="2">
                 
             </StackLayout>

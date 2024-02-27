@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page8"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 8">
+             Title="La Chilindrina ">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="chilindrina.jpg" 
+            Title="María Antonieta de las Nieves" 
+            SubTitle="La Chilindrina" 
+            Description="Aportó humor interpretando a la hija de Don Ramón, con su personalidad traviesa y sus peculiares ocurrencias.">
             <StackLayout Margin="2">
 
             </StackLayout>

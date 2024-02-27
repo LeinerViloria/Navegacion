@@ -6,7 +6,7 @@
              Title="Chespirito">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
+            Image="roberto.jpg" 
             Title="Roberto Gomez Bolaños" 
             SubTitle="(Chespirito)" 
             Description="Creador de algunos de los personajes más queridos y recordades de la comedia latinoamericana, con un impacto cultural duradero">

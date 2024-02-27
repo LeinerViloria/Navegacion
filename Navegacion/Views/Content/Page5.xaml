@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page5"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 5">
+             Title="Ñoño">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="nono.jpg" 
+            Title="Edgar Vivar" 
+            SubTitle="Ñoño" 
+            Description="Destacó como el niño rico y torpe, siendo fuente de risas en las interacciones con los demás personajes.">
             <StackLayout Margin="2">
 
             </StackLayout>

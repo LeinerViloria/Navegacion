@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page6"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 6">
+             Title="miss_Florinda">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="miss_florinda.jpg" 
+            Title="Angelines Fernández" 
+            SubTitle="Doña Florinda" 
+            Description="Interpretó a la excéntrica vecina, aportando elementos misteriosos y cómicos al vecindario.">
             <StackLayout Margin="2">
 
             </StackLayout>

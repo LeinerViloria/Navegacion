@@ -7,14 +7,14 @@
         <VerticalStackLayout Padding="8">
             <Button Text="Chespirito" Margin="4" Clicked="GoToPage1" />
             <Button Text=" Quico" Margin="4" Clicked="GoToPage2" />
-            <Button Text="Cosa 3" Margin="4" Clicked="GoToPage3" />
-            <Button Text="Cosa 4" Margin="4" Clicked="GoToPage4" />
-            <Button Text="Cosa 5" Margin="4" Clicked="GoToPage5" />
-            <Button Text="Cosa 6" Margin="4" Clicked="GoToPage6" />
-            <Button Text="Cosa 7" Margin="4" Clicked="GoToPage7" />
-            <Button Text="Cosa 8" Margin="4" Clicked="GoToPage8" />
-            <Button Text="Cosa 9" Margin="4" Clicked="GoToPage9" />
-            <Button Text="Cosa 10" Margin="4" Clicked="GoToPage10" />
+            <Button Text=" Don_Ramón" Margin="4" Clicked="GoToPage3" />
+            <Button Text=" Doña Florinda La Bruja del 71" Margin="4" Clicked="GoToPage4" />
+            <Button Text=" Ñoño" Margin="4" Clicked="GoToPage5" />
+            <Button Text=" La Bruja del 71" Margin="4" Clicked="GoToPage6" />
+            <Button Text="Profesor Jirafales " Margin="4" Clicked="GoToPage7" />
+            <Button Text="La Chilindrina " Margin="4" Clicked="GoToPage8" />
+            <Button Text="Godínez " Margin="4" Clicked="GoToPage9" />
+            <Button Text="Jaimito el Cartero" Margin="4" Clicked="GoToPage10" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page10"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 10">
+             Title="Jaimito el Cartero">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="jaimito.jpg" 
+            Title="Raul Padilla" 
+            SubTitle="Jaimito el Cartero" 
+            Description=" Su personaje, el cartero distraído y bromista, añadió elementos cómicos a las interacciones en la vecindad.">
             <StackLayout Margin="2">
 
             </StackLayout>

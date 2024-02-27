@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navegacion.Views.Content.Page9"
              xmlns:components="clr-namespace:Navegacion.Components"
-             Title="Pagina 9">
+             Title="Godínez ">
     <VerticalStackLayout>
         <components:ViewDescription 
-            Image="dotnet_bot.png" 
-            Title="Titulo" 
-            SubTitle="Subtitulo" 
-            Description="Descripcion">
+            Image="godinez.jpg" 
+            Title="Horacio Gómez Bolaños" 
+            SubTitle="Godínez" 
+            Description=" Hermano de Chespirito, interpretó al trabajador de la vecindad, siendo un personaje representativo de la oficina.">
             <StackLayout Margin="2">
 
             </StackLayout>
