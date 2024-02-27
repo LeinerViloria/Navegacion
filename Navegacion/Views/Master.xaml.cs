@@ -9,9 +9,18 @@ public partial class Master : ContentPage
 		InitializeComponent();
 	}
 
-	private void Navigate<T>() where T : Page
+    /*
+     * <summary>
+     *  Se hace uso de los genericos
+     *  En este caso es T
+     *  
+     *  Activator.CreateInstance<T>() ==> new PageX();
+     *  T debe heredar de ContentPages
+     * </sumary>
+     */
+    private void Navigate<T>() where T : Page
 	{
-		var ViewInstance = Activator.CreateInstance<T>()!;
+		var ViewInstance = Activator.CreateInstance<T>();
 
 		App.flyoutPage.Detail.Navigation.PushAsync(ViewInstance);
 		App.flyoutPage.IsPresented = false;
