@@ -1,8 +1,8 @@
 namespace Navegacion.Views.Content;
 
-public partial class Chespirito : ContentPage
+public partial class Page8 : ContentPage
 {
-	public Chespirito()
+	public Page8()
 	{
 		InitializeComponent();
 	}

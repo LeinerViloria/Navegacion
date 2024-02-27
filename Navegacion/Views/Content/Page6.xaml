@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegacion.Views.Content.Page6"
+             xmlns:components="clr-namespace:Navegacion.Components"
+             Title="Pagina 6">
+    <VerticalStackLayout>
+        <components:ViewDescription 
+            Image="dotnet_bot.png" 
+            Title="Titulo" 
+            SubTitle="Subtitulo" 
+            Description="Descripcion">
+            <StackLayout Margin="2">
+
+            </StackLayout>
+        </components:ViewDescription>
+    </VerticalStackLayout>
+</ContentPage>

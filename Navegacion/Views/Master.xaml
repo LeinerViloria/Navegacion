@@ -5,16 +5,16 @@
              Title="Master">
     <ScrollView>
         <VerticalStackLayout Padding="8">
-            <Button Text="Chespirito" Clicked="GoToPage1" />
-            <Button Text="Personaje 2" />
-            <Button Text="Cosa 3" />
-            <Button Text="Cosa 4" />
-            <Button Text="Cosa 5" />
-            <Button Text="Cosa 6" />
-            <Button Text="Cosa 7" />
-            <Button Text="Cosa 8" />
-            <Button Text="Cosa 9" />
-            <Button Text="Cosa 10" />
+            <Button Text="Chespirito" Margin="4" Clicked="GoToPage1" />
+            <Button Text="Personaje 2" Margin="4" Clicked="GoToPage2" />
+            <Button Text="Cosa 3" Margin="4" Clicked="GoToPage3" />
+            <Button Text="Cosa 4" Margin="4" Clicked="GoToPage4" />
+            <Button Text="Cosa 5" Margin="4" Clicked="GoToPage5" />
+            <Button Text="Cosa 6" Margin="4" Clicked="GoToPage6" />
+            <Button Text="Cosa 7" Margin="4" Clicked="GoToPage7" />
+            <Button Text="Cosa 8" Margin="4" Clicked="GoToPage8" />
+            <Button Text="Cosa 9" Margin="4" Clicked="GoToPage9" />
+            <Button Text="Cosa 10" Margin="4" Clicked="GoToPage10" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
